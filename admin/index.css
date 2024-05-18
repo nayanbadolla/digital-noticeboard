@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#section1 {
+    background-image: url("../media/background.JPG");
+    background-size: cover;
+}
+
+#header {
+    height: 15vh;
+    background-color: white;
+    opacity: 0.8;
+}
+
+#headtext {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#headtext h2 {
+    color: #28508b;
+}
+
+/* .motto {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+} */
+
+#logo {
+    max-width: 85%;
+}
+
+.content {
+     height: 80vh; 
+    max-width: fit-content;
+    margin: auto;
+    padding: 2em;
+}
+
+.content2 {
+    height: 100%;
+}
+
+.form {
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 10px;
+    color: white;
+    padding: 1em;
+    /* text-align: left; */
+}
+
+.content h2 {
+    text-align: center;
+}
+
+.content button {
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/* #opportunity {
+    margin-top: 5vh;
+    height: 35vh;
+    border-radius: 5%;
+    opacity: 0.8;
+    background-image: url("../media/oppurtunity.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#opportunity h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 1rem 0;
+} */
+
+/* .poster, .research {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: 70vh;
+    padding: 0 10% 0 10%;
+} */
+
+/* #calendar {
+    height: 30vh;
+    border-radius: 5%;
+} */
+
+/* iframe {
+    margin-top: 5vh;
+    padding: 0 7% 0 7%;
+    height: 100%;
+    width: 100%;
+} */
+
+#footer {
+    height: 5vh;
+    background-color: white;
+    text-align: center;
+    padding: 0.7vh;
+}
+
+/* UPLOAD | MODIFY */
+
+/* .content {
+    height: 80vh;
+} */
+
+table {
+    text-align: center;
+    /* width: 80%;
+    margin: auto; */
+}
+
+table, tr, th, td {
+    border: 2px solid white;
+}
+
+th, td {
+    padding: 8px 5px;
+}
+
+table .icon {
+    width: 40%;
+}
+
+table .edit {
+    filter: invert(100);
+}
+
+/*table .poster {*/
+/*    width: .1%;*/
+/*}*/
